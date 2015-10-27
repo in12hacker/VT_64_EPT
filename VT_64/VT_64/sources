@@ -1,0 +1,11 @@
+TARGETNAME=virtdbg
+TARGETTYPE=DRIVER
+INCLUDES= .; 
+
+SOURCES=\
+    snprintf.c \
+    driver.c
+
+AMD64_SOURCES=\
+    amd64.asm
+
